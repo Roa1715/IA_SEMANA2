@@ -27,11 +27,4 @@ con sus respuestas, la comparación entre ambas y la conclusión.
 comparar el costo entre supermercados (`base_datos_supermercados.json`) y ver
 recetas sugeridas según los productos elegidos. Los componentes están en
 `.tsx`, los cálculos en `calculos.ts` y los datos en `productos.ts` y `recetas.ts`.
-
-#### Prompt que funcionó
-> **PENDIENTE:** pega aquí, tal cual, el prompt que usaste con la IA y que te
-> dio el resultado final de la página.
-
-## Cómo entregar
-1. Pegar el enlace de este repositorio en el texto en línea (verificar que el TL pueda abrirlo).
-2. Subir el repositorio también como archivo `.zip`.
+.
