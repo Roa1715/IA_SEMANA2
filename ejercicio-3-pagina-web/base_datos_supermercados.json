@@ -1,0 +1,3933 @@
+{
+  "proyecto": "Comparador de precios de supermercados",
+  "version": "1.0",
+  "moneda": "COP",
+  "precios_simulados": true,
+  "nota": "Precios ficticios de prueba, construidos para ser plausibles; no corresponden a cotizaciones verificadas. null indica que la referencia no está disponible en ese supermercado.",
+  "supermercados": [
+    "D1",
+    "Exito",
+    "Jumbo"
+  ],
+  "resumen": {
+    "categorias": 10,
+    "familias_de_productos": 110,
+    "marcas_por_familia": 3,
+    "referencias_comerciales_por_supermercado": 300,
+    "referencias_compartidas_en_catalogo": 285,
+    "coincidencia_de_catalogo": "95%",
+    "referencias_exclusivas_por_supermercado": 15
+  },
+  "categorias": [
+    {
+      "id_categoria": "CAT001",
+      "nombre": "Granos y cereales",
+      "productos": [
+        {
+          "id_producto": "PROD001",
+          "nombre": "Arroz blanco",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU001-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 4900
+              }
+            },
+            {
+              "id_referencia": "SKU001-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 4450,
+                "Exito": null,
+                "Jumbo": 5350
+              }
+            },
+            {
+              "id_referencia": "SKU001-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 5050,
+                "Exito": null,
+                "Jumbo": 5350
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD002",
+          "nombre": "Arroz integral",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU002-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": 6150,
+                "Exito": null,
+                "Jumbo": 6950
+              }
+            },
+            {
+              "id_referencia": "SKU002-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 6900,
+                "Exito": null,
+                "Jumbo": 7550
+              }
+            },
+            {
+              "id_referencia": "SKU002-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 7650,
+                "Exito": null,
+                "Jumbo": 8250
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD003",
+          "nombre": "Fríjol cargamanto rojo",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU003-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": 6050,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU003-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 6350,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU003-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 7050,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD004",
+          "nombre": "Fríjol bola roja",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU004-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": 5500,
+                "Exito": null,
+                "Jumbo": 6050
+              }
+            },
+            {
+              "id_referencia": "SKU004-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 5350,
+                "Exito": null,
+                "Jumbo": 6050
+              }
+            },
+            {
+              "id_referencia": "SKU004-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 5850,
+                "Exito": null,
+                "Jumbo": 7000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD005",
+          "nombre": "Lenteja",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU005-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": 3450,
+                "Exito": null,
+                "Jumbo": 3800
+              }
+            },
+            {
+              "id_referencia": "SKU005-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 3850,
+                "Exito": null,
+                "Jumbo": 4000
+              }
+            },
+            {
+              "id_referencia": "SKU005-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 4000,
+                "Exito": null,
+                "Jumbo": 4300
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD006",
+          "nombre": "Garbanzo",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU006-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": 4450,
+                "Exito": null,
+                "Jumbo": 5450
+              }
+            },
+            {
+              "id_referencia": "SKU006-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 5150,
+                "Exito": null,
+                "Jumbo": 5650
+              }
+            },
+            {
+              "id_referencia": "SKU006-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 5400,
+                "Exito": null,
+                "Jumbo": 6150
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD007",
+          "nombre": "Avena en hojuelas",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU007-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": 3900,
+                "Exito": null,
+                "Jumbo": 4500
+              }
+            },
+            {
+              "id_referencia": "SKU007-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 4000,
+                "Exito": null,
+                "Jumbo": 4450
+              }
+            },
+            {
+              "id_referencia": "SKU007-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 4550,
+                "Exito": null,
+                "Jumbo": 5200
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD008",
+          "nombre": "Harina de trigo",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU008-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": 3550,
+                "Exito": null,
+                "Jumbo": 4000
+              }
+            },
+            {
+              "id_referencia": "SKU008-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 3800,
+                "Exito": null,
+                "Jumbo": 4400
+              }
+            },
+            {
+              "id_referencia": "SKU008-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 4400,
+                "Exito": null,
+                "Jumbo": 4800
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD009",
+          "nombre": "Pasta espagueti",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU009-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU009-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU009-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD010",
+          "nombre": "Pasta corta",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU010-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": 3200,
+                "Exito": null,
+                "Jumbo": 3450
+              }
+            },
+            {
+              "id_referencia": "SKU010-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 3300,
+                "Exito": null,
+                "Jumbo": 3950
+              }
+            },
+            {
+              "id_referencia": "SKU010-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 3400,
+                "Exito": null,
+                "Jumbo": 3950
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD011",
+          "nombre": "Maíz pira",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU011-1",
+              "marca": "Diana",
+              "precios": {
+                "D1": 3500,
+                "Exito": null,
+                "Jumbo": 4350
+              }
+            },
+            {
+              "id_referencia": "SKU011-2",
+              "marca": "Roa",
+              "precios": {
+                "D1": 4100,
+                "Exito": null,
+                "Jumbo": 4450
+              }
+            },
+            {
+              "id_referencia": "SKU011-3",
+              "marca": "Florhuila",
+              "precios": {
+                "D1": 4350,
+                "Exito": null,
+                "Jumbo": 4950
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_categoria": "CAT002",
+      "nombre": "Lácteos y derivados",
+      "productos": [
+        {
+          "id_producto": "PROD012",
+          "nombre": "Leche entera",
+          "unidad_medida": "L",
+          "presentacion": "Caja de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU012-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 4150,
+                "Exito": null,
+                "Jumbo": 4450
+              }
+            },
+            {
+              "id_referencia": "SKU012-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 4400,
+                "Exito": null,
+                "Jumbo": 4650
+              }
+            },
+            {
+              "id_referencia": "SKU012-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 4350,
+                "Exito": null,
+                "Jumbo": 5450
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD013",
+          "nombre": "Leche deslactosada",
+          "unidad_medida": "L",
+          "presentacion": "Caja de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU013-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 4350,
+                "Exito": null,
+                "Jumbo": 5000
+              }
+            },
+            {
+              "id_referencia": "SKU013-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 4900,
+                "Exito": null,
+                "Jumbo": 5750
+              }
+            },
+            {
+              "id_referencia": "SKU013-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 5550,
+                "Exito": null,
+                "Jumbo": 5800
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD014",
+          "nombre": "Leche descremada",
+          "unidad_medida": "L",
+          "presentacion": "Caja de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU014-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 4450,
+                "Exito": null,
+                "Jumbo": 5050
+              }
+            },
+            {
+              "id_referencia": "SKU014-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 4450,
+                "Exito": null,
+                "Jumbo": 5250
+              }
+            },
+            {
+              "id_referencia": "SKU014-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 5150,
+                "Exito": null,
+                "Jumbo": 5400
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD015",
+          "nombre": "Yogur natural",
+          "unidad_medida": "g",
+          "presentacion": "Envase de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU015-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 8600
+              }
+            },
+            {
+              "id_referencia": "SKU015-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 8850
+              }
+            },
+            {
+              "id_referencia": "SKU015-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 9950
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD016",
+          "nombre": "Yogur bebible",
+          "unidad_medida": "mL",
+          "presentacion": "Botella de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU016-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 6700,
+                "Exito": null,
+                "Jumbo": 8050
+              }
+            },
+            {
+              "id_referencia": "SKU016-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 7700,
+                "Exito": null,
+                "Jumbo": 8400
+              }
+            },
+            {
+              "id_referencia": "SKU016-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 7850,
+                "Exito": null,
+                "Jumbo": 8850
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD017",
+          "nombre": "Queso campesino",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU017-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 12900,
+                "Exito": null,
+                "Jumbo": 15050
+              }
+            },
+            {
+              "id_referencia": "SKU017-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 14150,
+                "Exito": null,
+                "Jumbo": 15850
+              }
+            },
+            {
+              "id_referencia": "SKU017-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 15300,
+                "Exito": null,
+                "Jumbo": 17000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD018",
+          "nombre": "Queso doble crema",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU018-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 14850,
+                "Exito": null,
+                "Jumbo": 16050
+              }
+            },
+            {
+              "id_referencia": "SKU018-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 16250,
+                "Exito": null,
+                "Jumbo": 18350
+              }
+            },
+            {
+              "id_referencia": "SKU018-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 16900,
+                "Exito": null,
+                "Jumbo": 19450
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD019",
+          "nombre": "Queso mozzarella",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 250 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU019-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 9400,
+                "Exito": null,
+                "Jumbo": 10300
+              }
+            },
+            {
+              "id_referencia": "SKU019-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 10250,
+                "Exito": null,
+                "Jumbo": 11150
+              }
+            },
+            {
+              "id_referencia": "SKU019-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 10600,
+                "Exito": null,
+                "Jumbo": 12100
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD020",
+          "nombre": "Mantequilla",
+          "unidad_medida": "g",
+          "presentacion": "Barra de 250 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU020-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 7500,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU020-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 8050,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU020-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 8600,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD021",
+          "nombre": "Margarina",
+          "unidad_medida": "g",
+          "presentacion": "Envase de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU021-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 5500,
+                "Exito": null,
+                "Jumbo": 6550
+              }
+            },
+            {
+              "id_referencia": "SKU021-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 6150,
+                "Exito": null,
+                "Jumbo": 6850
+              }
+            },
+            {
+              "id_referencia": "SKU021-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 6500,
+                "Exito": null,
+                "Jumbo": 7700
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD022",
+          "nombre": "Crema de leche",
+          "unidad_medida": "mL",
+          "presentacion": "Caja de 200 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU022-1",
+              "marca": "Alpina",
+              "precios": {
+                "D1": 3700,
+                "Exito": null,
+                "Jumbo": 4050
+              }
+            },
+            {
+              "id_referencia": "SKU022-2",
+              "marca": "Colanta",
+              "precios": {
+                "D1": 3750,
+                "Exito": null,
+                "Jumbo": 4700
+              }
+            },
+            {
+              "id_referencia": "SKU022-3",
+              "marca": "Parmalat",
+              "precios": {
+                "D1": 4400,
+                "Exito": null,
+                "Jumbo": 4700
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_categoria": "CAT003",
+      "nombre": "Carnes, pollo y pescados",
+      "productos": [
+        {
+          "id_producto": "PROD023",
+          "nombre": "Pechuga de pollo",
+          "unidad_medida": "kg",
+          "presentacion": "Bandeja de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU023-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": 15600,
+                "Exito": null,
+                "Jumbo": 17850
+              }
+            },
+            {
+              "id_referencia": "SKU023-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": 17450,
+                "Exito": null,
+                "Jumbo": 20450
+              }
+            },
+            {
+              "id_referencia": "SKU023-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": 18050,
+                "Exito": null,
+                "Jumbo": 21850
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD024",
+          "nombre": "Muslo de pollo",
+          "unidad_medida": "kg",
+          "presentacion": "Bandeja de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU024-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": 10050,
+                "Exito": null,
+                "Jumbo": 12100
+              }
+            },
+            {
+              "id_referencia": "SKU024-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": 11400,
+                "Exito": null,
+                "Jumbo": 11950
+              }
+            },
+            {
+              "id_referencia": "SKU024-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": 11100,
+                "Exito": null,
+                "Jumbo": 13300
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD025",
+          "nombre": "Carne molida de res",
+          "unidad_medida": "kg",
+          "presentacion": "Bandeja de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU025-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": 12400,
+                "Exito": null,
+                "Jumbo": 14050
+              }
+            },
+            {
+              "id_referencia": "SKU025-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": 13600,
+                "Exito": null,
+                "Jumbo": 15350
+              }
+            },
+            {
+              "id_referencia": "SKU025-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": 15300,
+                "Exito": null,
+                "Jumbo": 16250
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD026",
+          "nombre": "Carne para asar de res",
+          "unidad_medida": "kg",
+          "presentacion": "Bandeja de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU026-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU026-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU026-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD027",
+          "nombre": "Lomo de cerdo",
+          "unidad_medida": "kg",
+          "presentacion": "Bandeja de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU027-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": 14350,
+                "Exito": null,
+                "Jumbo": 15400
+              }
+            },
+            {
+              "id_referencia": "SKU027-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": 14450,
+                "Exito": null,
+                "Jumbo": 16650
+              }
+            },
+            {
+              "id_referencia": "SKU027-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": 15600,
+                "Exito": null,
+                "Jumbo": 18150
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD028",
+          "nombre": "Costilla de cerdo",
+          "unidad_medida": "kg",
+          "presentacion": "Bandeja de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU028-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": 10800,
+                "Exito": null,
+                "Jumbo": 12800
+              }
+            },
+            {
+              "id_referencia": "SKU028-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": 12250,
+                "Exito": null,
+                "Jumbo": 12900
+              }
+            },
+            {
+              "id_referencia": "SKU028-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": 13100,
+                "Exito": null,
+                "Jumbo": 14700
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD029",
+          "nombre": "Tilapia congelada",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU029-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": 10700,
+                "Exito": null,
+                "Jumbo": 12150
+              }
+            },
+            {
+              "id_referencia": "SKU029-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": 11300,
+                "Exito": null,
+                "Jumbo": 14050
+              }
+            },
+            {
+              "id_referencia": "SKU029-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": 12150,
+                "Exito": null,
+                "Jumbo": 13650
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD030",
+          "nombre": "Filete de merluza",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU030-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": 13100,
+                "Exito": null,
+                "Jumbo": 15300
+              }
+            },
+            {
+              "id_referencia": "SKU030-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": 13650,
+                "Exito": null,
+                "Jumbo": 15650
+              }
+            },
+            {
+              "id_referencia": "SKU030-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": 15250,
+                "Exito": null,
+                "Jumbo": 17600
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD031",
+          "nombre": "Atún en agua",
+          "unidad_medida": "g",
+          "presentacion": "Lata de 160 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU031-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": 5400,
+                "Exito": null,
+                "Jumbo": 5600
+              }
+            },
+            {
+              "id_referencia": "SKU031-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 6200
+              }
+            },
+            {
+              "id_referencia": "SKU031-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": 5750,
+                "Exito": null,
+                "Jumbo": 6450
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD032",
+          "nombre": "Salchichas",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 8 unidades (400 g)",
+          "marcas": [
+            {
+              "id_referencia": "SKU032-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 8400
+              }
+            },
+            {
+              "id_referencia": "SKU032-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 8800
+              }
+            },
+            {
+              "id_referencia": "SKU032-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 9500
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD033",
+          "nombre": "Jamón de cerdo",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 250 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU033-1",
+              "marca": "Zenú",
+              "precios": {
+                "D1": 7550,
+                "Exito": null,
+                "Jumbo": 7850
+              }
+            },
+            {
+              "id_referencia": "SKU033-2",
+              "marca": "Rica",
+              "precios": {
+                "D1": 7600,
+                "Exito": null,
+                "Jumbo": 8650
+              }
+            },
+            {
+              "id_referencia": "SKU033-3",
+              "marca": "Pietrán",
+              "precios": {
+                "D1": 8250,
+                "Exito": null,
+                "Jumbo": 9200
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_categoria": "CAT004",
+      "nombre": "Frutas",
+      "productos": [
+        {
+          "id_producto": "PROD034",
+          "nombre": "Banano",
+          "unidad_medida": "kg",
+          "presentacion": "A granel, 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU034-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 2700,
+                "Exito": null,
+                "Jumbo": 3050
+              }
+            },
+            {
+              "id_referencia": "SKU034-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 2900,
+                "Exito": null,
+                "Jumbo": 3400
+              }
+            },
+            {
+              "id_referencia": "SKU034-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 3200,
+                "Exito": null,
+                "Jumbo": 3650
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD035",
+          "nombre": "Manzana roja",
+          "unidad_medida": "kg",
+          "presentacion": "Bandeja de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU035-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 7450,
+                "Exito": null,
+                "Jumbo": 8800
+              }
+            },
+            {
+              "id_referencia": "SKU035-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 7650,
+                "Exito": null,
+                "Jumbo": 8900
+              }
+            },
+            {
+              "id_referencia": "SKU035-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 8900,
+                "Exito": null,
+                "Jumbo": 9350
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD036",
+          "nombre": "Naranja",
+          "unidad_medida": "kg",
+          "presentacion": "A granel, 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU036-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 3250,
+                "Exito": null,
+                "Jumbo": 3850
+              }
+            },
+            {
+              "id_referencia": "SKU036-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 3600,
+                "Exito": null,
+                "Jumbo": 3950
+              }
+            },
+            {
+              "id_referencia": "SKU036-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 3950,
+                "Exito": null,
+                "Jumbo": 4500
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD037",
+          "nombre": "Papaya",
+          "unidad_medida": "kg",
+          "presentacion": "Unidad aproximada de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU037-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 3700,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU037-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 4100,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU037-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 4500,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD038",
+          "nombre": "Mango",
+          "unidad_medida": "kg",
+          "presentacion": "A granel, 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU038-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 4450,
+                "Exito": null,
+                "Jumbo": 5400
+              }
+            },
+            {
+              "id_referencia": "SKU038-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 4750,
+                "Exito": null,
+                "Jumbo": 5500
+              }
+            },
+            {
+              "id_referencia": "SKU038-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 5500,
+                "Exito": null,
+                "Jumbo": 6000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD039",
+          "nombre": "Piña",
+          "unidad_medida": "unidad",
+          "presentacion": "Unidad mediana",
+          "marcas": [
+            {
+              "id_referencia": "SKU039-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 5650,
+                "Exito": null,
+                "Jumbo": 6800
+              }
+            },
+            {
+              "id_referencia": "SKU039-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 6100,
+                "Exito": null,
+                "Jumbo": 6750
+              }
+            },
+            {
+              "id_referencia": "SKU039-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 6700,
+                "Exito": null,
+                "Jumbo": 7300
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD040",
+          "nombre": "Aguacate papelillo",
+          "unidad_medida": "kg",
+          "presentacion": "A granel, 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU040-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 7250,
+                "Exito": null,
+                "Jumbo": 8550
+              }
+            },
+            {
+              "id_referencia": "SKU040-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 8100,
+                "Exito": null,
+                "Jumbo": 9500
+              }
+            },
+            {
+              "id_referencia": "SKU040-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 8550,
+                "Exito": null,
+                "Jumbo": 10300
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD041",
+          "nombre": "Limón Tahití",
+          "unidad_medida": "kg",
+          "presentacion": "A granel, 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU041-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 3750,
+                "Exito": null,
+                "Jumbo": 4050
+              }
+            },
+            {
+              "id_referencia": "SKU041-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 3800,
+                "Exito": null,
+                "Jumbo": 4400
+              }
+            },
+            {
+              "id_referencia": "SKU041-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 4400,
+                "Exito": null,
+                "Jumbo": 4950
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD042",
+          "nombre": "Fresa",
+          "unidad_medida": "g",
+          "presentacion": "Bandeja de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU042-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 7300,
+                "Exito": null,
+                "Jumbo": 8850
+              }
+            },
+            {
+              "id_referencia": "SKU042-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 7550,
+                "Exito": null,
+                "Jumbo": 9050
+              }
+            },
+            {
+              "id_referencia": "SKU042-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 8600,
+                "Exito": null,
+                "Jumbo": 10300
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD043",
+          "nombre": "Uva roja",
+          "unidad_medida": "g",
+          "presentacion": "Bandeja de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU043-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU043-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU043-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD044",
+          "nombre": "Sandía",
+          "unidad_medida": "kg",
+          "presentacion": "Porción aproximada de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU044-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 3300,
+                "Exito": null,
+                "Jumbo": 4000
+              }
+            },
+            {
+              "id_referencia": "SKU044-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 3600,
+                "Exito": null,
+                "Jumbo": 3950
+              }
+            },
+            {
+              "id_referencia": "SKU044-3",
+              "marca": "Fresco Natural",
+              "precios": {
+                "D1": 4000,
+                "Exito": null,
+                "Jumbo": 4450
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_categoria": "CAT005",
+      "nombre": "Verduras y hortalizas",
+      "productos": [
+        {
+          "id_producto": "PROD045",
+          "nombre": "Papa pastusa",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU045-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 2700,
+                "Exito": null,
+                "Jumbo": 3000
+              }
+            },
+            {
+              "id_referencia": "SKU045-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 2700,
+                "Exito": null,
+                "Jumbo": 3350
+              }
+            },
+            {
+              "id_referencia": "SKU045-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 3200,
+                "Exito": null,
+                "Jumbo": 3650
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD046",
+          "nombre": "Papa criolla",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU046-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 4750,
+                "Exito": null,
+                "Jumbo": 5050
+              }
+            },
+            {
+              "id_referencia": "SKU046-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 4850,
+                "Exito": null,
+                "Jumbo": 5600
+              }
+            },
+            {
+              "id_referencia": "SKU046-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 5050,
+                "Exito": null,
+                "Jumbo": 6100
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD047",
+          "nombre": "Tomate chonto",
+          "unidad_medida": "kg",
+          "presentacion": "A granel, 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU047-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 4000,
+                "Exito": null,
+                "Jumbo": 4550
+              }
+            },
+            {
+              "id_referencia": "SKU047-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 4250,
+                "Exito": null,
+                "Jumbo": 4700
+              }
+            },
+            {
+              "id_referencia": "SKU047-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 4300,
+                "Exito": null,
+                "Jumbo": 4850
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD048",
+          "nombre": "Cebolla cabezona blanca",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU048-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 3150,
+                "Exito": null,
+                "Jumbo": 3600
+              }
+            },
+            {
+              "id_referencia": "SKU048-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 3450,
+                "Exito": null,
+                "Jumbo": 3550
+              }
+            },
+            {
+              "id_referencia": "SKU048-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 3400,
+                "Exito": null,
+                "Jumbo": 4000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD049",
+          "nombre": "Cebolla larga",
+          "unidad_medida": "g",
+          "presentacion": "Manojo de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU049-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 2700
+              }
+            },
+            {
+              "id_referencia": "SKU049-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 3050
+              }
+            },
+            {
+              "id_referencia": "SKU049-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 3300
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD050",
+          "nombre": "Zanahoria",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU050-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 2650,
+                "Exito": null,
+                "Jumbo": 2900
+              }
+            },
+            {
+              "id_referencia": "SKU050-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 2800,
+                "Exito": null,
+                "Jumbo": 3150
+              }
+            },
+            {
+              "id_referencia": "SKU050-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 3050,
+                "Exito": null,
+                "Jumbo": 3600
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD051",
+          "nombre": "Lechuga crespa",
+          "unidad_medida": "unidad",
+          "presentacion": "Unidad",
+          "marcas": [
+            {
+              "id_referencia": "SKU051-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 3050,
+                "Exito": null,
+                "Jumbo": 3450
+              }
+            },
+            {
+              "id_referencia": "SKU051-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 3200,
+                "Exito": null,
+                "Jumbo": 3800
+              }
+            },
+            {
+              "id_referencia": "SKU051-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 3750,
+                "Exito": null,
+                "Jumbo": 3850
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD052",
+          "nombre": "Pepino cohombro",
+          "unidad_medida": "kg",
+          "presentacion": "A granel, 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU052-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 2750,
+                "Exito": null,
+                "Jumbo": 3050
+              }
+            },
+            {
+              "id_referencia": "SKU052-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 3100,
+                "Exito": null,
+                "Jumbo": 3500
+              }
+            },
+            {
+              "id_referencia": "SKU052-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 3100,
+                "Exito": null,
+                "Jumbo": 3750
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD053",
+          "nombre": "Brócoli",
+          "unidad_medida": "unidad",
+          "presentacion": "Unidad aproximada de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU053-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 4400,
+                "Exito": null,
+                "Jumbo": 4600
+              }
+            },
+            {
+              "id_referencia": "SKU053-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 4650,
+                "Exito": null,
+                "Jumbo": 4900
+              }
+            },
+            {
+              "id_referencia": "SKU053-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 4800,
+                "Exito": null,
+                "Jumbo": 5350
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD054",
+          "nombre": "Pimentón rojo",
+          "unidad_medida": "kg",
+          "presentacion": "A granel, 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU054-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 6000,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU054-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 5800,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU054-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 6600,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD055",
+          "nombre": "Yuca",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU055-1",
+              "marca": "Selección del Campo",
+              "precios": {
+                "D1": 2600,
+                "Exito": null,
+                "Jumbo": 3000
+              }
+            },
+            {
+              "id_referencia": "SKU055-2",
+              "marca": "Finca Andina",
+              "precios": {
+                "D1": 2850,
+                "Exito": null,
+                "Jumbo": 3050
+              }
+            },
+            {
+              "id_referencia": "SKU055-3",
+              "marca": "Huerta Fresca",
+              "precios": {
+                "D1": 2950,
+                "Exito": null,
+                "Jumbo": 3600
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_categoria": "CAT006",
+      "nombre": "Despensa y productos básicos",
+      "productos": [
+        {
+          "id_producto": "PROD056",
+          "nombre": "Aceite vegetal de girasol",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU056-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": 11050,
+                "Exito": null,
+                "Jumbo": 13150
+              }
+            },
+            {
+              "id_referencia": "SKU056-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": 11850,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU056-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": 13100,
+                "Exito": null,
+                "Jumbo": 14650
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD057",
+          "nombre": "Aceite de soya",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU057-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": 9000,
+                "Exito": null,
+                "Jumbo": 10000
+              }
+            },
+            {
+              "id_referencia": "SKU057-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": 9900,
+                "Exito": null,
+                "Jumbo": 11000
+              }
+            },
+            {
+              "id_referencia": "SKU057-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": 10700,
+                "Exito": null,
+                "Jumbo": 12750
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD058",
+          "nombre": "Azúcar blanca",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU058-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": 4250,
+                "Exito": null,
+                "Jumbo": 4750
+              }
+            },
+            {
+              "id_referencia": "SKU058-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": 4300,
+                "Exito": null,
+                "Jumbo": 5150
+              }
+            },
+            {
+              "id_referencia": "SKU058-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": 5050,
+                "Exito": null,
+                "Jumbo": 5700
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD059",
+          "nombre": "Panela",
+          "unidad_medida": "g",
+          "presentacion": "Panelón de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU059-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": 3000,
+                "Exito": null,
+                "Jumbo": 3450
+              }
+            },
+            {
+              "id_referencia": "SKU059-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": 3150,
+                "Exito": null,
+                "Jumbo": 3500
+              }
+            },
+            {
+              "id_referencia": "SKU059-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": 3300,
+                "Exito": null,
+                "Jumbo": 3800
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD060",
+          "nombre": "Sal refinada",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU060-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU060-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU060-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD061",
+          "nombre": "Harina de maíz precocida",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU061-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": 5850,
+                "Exito": null,
+                "Jumbo": 6650
+              }
+            },
+            {
+              "id_referencia": "SKU061-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": 6200,
+                "Exito": null,
+                "Jumbo": 6600
+              }
+            },
+            {
+              "id_referencia": "SKU061-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 7450
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD062",
+          "nombre": "Chocolate de mesa",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU062-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": 9650,
+                "Exito": null,
+                "Jumbo": 11050
+              }
+            },
+            {
+              "id_referencia": "SKU062-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": 10350,
+                "Exito": null,
+                "Jumbo": 11150
+              }
+            },
+            {
+              "id_referencia": "SKU062-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": 11050,
+                "Exito": null,
+                "Jumbo": 11750
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD063",
+          "nombre": "Café molido",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 250 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU063-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": 9050,
+                "Exito": null,
+                "Jumbo": 9350
+              }
+            },
+            {
+              "id_referencia": "SKU063-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": 8950,
+                "Exito": null,
+                "Jumbo": 10200
+              }
+            },
+            {
+              "id_referencia": "SKU063-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": 9950,
+                "Exito": null,
+                "Jumbo": 11700
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD064",
+          "nombre": "Mayonesa",
+          "unidad_medida": "g",
+          "presentacion": "Frasco de 400 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU064-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": 6150,
+                "Exito": null,
+                "Jumbo": 6950
+              }
+            },
+            {
+              "id_referencia": "SKU064-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": 6900,
+                "Exito": null,
+                "Jumbo": 7850
+              }
+            },
+            {
+              "id_referencia": "SKU064-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": 7350,
+                "Exito": null,
+                "Jumbo": 8300
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD065",
+          "nombre": "Salsa de tomate",
+          "unidad_medida": "g",
+          "presentacion": "Doypack de 400 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU065-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": 4600,
+                "Exito": null,
+                "Jumbo": 4950
+              }
+            },
+            {
+              "id_referencia": "SKU065-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": 5050,
+                "Exito": null,
+                "Jumbo": 5250
+              }
+            },
+            {
+              "id_referencia": "SKU065-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": 5400,
+                "Exito": null,
+                "Jumbo": 5800
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD066",
+          "nombre": "Vinagre blanco",
+          "unidad_medida": "mL",
+          "presentacion": "Botella de 500 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU066-1",
+              "marca": "La muñeca",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 2950
+              }
+            },
+            {
+              "id_referencia": "SKU066-2",
+              "marca": "Del Campo",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 3050
+              }
+            },
+            {
+              "id_referencia": "SKU066-3",
+              "marca": "Levapan",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 3350
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_categoria": "CAT007",
+      "nombre": "Panadería y repostería",
+      "productos": [
+        {
+          "id_producto": "PROD067",
+          "nombre": "Pan tajado blanco",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de  tajadas (500 g)",
+          "marcas": [
+            {
+              "id_referencia": "SKU067-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 5800,
+                "Exito": null,
+                "Jumbo": 6700
+              }
+            },
+            {
+              "id_referencia": "SKU067-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 5800,
+                "Exito": null,
+                "Jumbo": 6750
+              }
+            },
+            {
+              "id_referencia": "SKU067-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 6500,
+                "Exito": null,
+                "Jumbo": 7400
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD068",
+          "nombre": "Pan integral tajado",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU068-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 6550,
+                "Exito": null,
+                "Jumbo": 7950
+              }
+            },
+            {
+              "id_referencia": "SKU068-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 7550,
+                "Exito": null,
+                "Jumbo": 8650
+              }
+            },
+            {
+              "id_referencia": "SKU068-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 7700,
+                "Exito": null,
+                "Jumbo": 8900
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD069",
+          "nombre": "Arepas blancas",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 5 unidades (500 g)",
+          "marcas": [
+            {
+              "id_referencia": "SKU069-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 4550,
+                "Exito": null,
+                "Jumbo": 5300
+              }
+            },
+            {
+              "id_referencia": "SKU069-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 4950,
+                "Exito": null,
+                "Jumbo": 5450
+              }
+            },
+            {
+              "id_referencia": "SKU069-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 5200,
+                "Exito": null,
+                "Jumbo": 6250
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD070",
+          "nombre": "Arepas de chócolo",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 5 unidades (500 g)",
+          "marcas": [
+            {
+              "id_referencia": "SKU070-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 6850,
+                "Exito": null,
+                "Jumbo": 7750
+              }
+            },
+            {
+              "id_referencia": "SKU070-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 7250,
+                "Exito": null,
+                "Jumbo": 8100
+              }
+            },
+            {
+              "id_referencia": "SKU070-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 8150,
+                "Exito": null,
+                "Jumbo": 9100
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD071",
+          "nombre": "Tortillas de trigo",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 8 unidades",
+          "marcas": [
+            {
+              "id_referencia": "SKU071-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 7850,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU071-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 7750,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU071-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 8500,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD072",
+          "nombre": "Tostadas",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 200 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU072-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 4300,
+                "Exito": null,
+                "Jumbo": 4750
+              }
+            },
+            {
+              "id_referencia": "SKU072-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 4400,
+                "Exito": null,
+                "Jumbo": 5400
+              }
+            },
+            {
+              "id_referencia": "SKU072-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 4700,
+                "Exito": null,
+                "Jumbo": 5450
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD073",
+          "nombre": "Galletas de soda",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 3 tacos (300 g)",
+          "marcas": [
+            {
+              "id_referencia": "SKU073-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 4750,
+                "Exito": null,
+                "Jumbo": 5100
+              }
+            },
+            {
+              "id_referencia": "SKU073-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 4950,
+                "Exito": null,
+                "Jumbo": 5250
+              }
+            },
+            {
+              "id_referencia": "SKU073-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 5550,
+                "Exito": null,
+                "Jumbo": 6350
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD074",
+          "nombre": "Galletas dulces",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 6 unidades",
+          "marcas": [
+            {
+              "id_referencia": "SKU074-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 3900,
+                "Exito": null,
+                "Jumbo": 4700
+              }
+            },
+            {
+              "id_referencia": "SKU074-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 4100,
+                "Exito": null,
+                "Jumbo": 5050
+              }
+            },
+            {
+              "id_referencia": "SKU074-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 4450,
+                "Exito": null,
+                "Jumbo": 5350
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD075",
+          "nombre": "Harina para pancakes",
+          "unidad_medida": "g",
+          "presentacion": "Caja de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU075-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 6450,
+                "Exito": null,
+                "Jumbo": 7400
+              }
+            },
+            {
+              "id_referencia": "SKU075-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 6550,
+                "Exito": null,
+                "Jumbo": 7800
+              }
+            },
+            {
+              "id_referencia": "SKU075-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 7000,
+                "Exito": null,
+                "Jumbo": 8250
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD076",
+          "nombre": "Mezcla para torta",
+          "unidad_medida": "g",
+          "presentacion": "Caja de 500 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU076-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": 7350,
+                "Exito": null,
+                "Jumbo": 8300
+              }
+            },
+            {
+              "id_referencia": "SKU076-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": 7650,
+                "Exito": null,
+                "Jumbo": 9500
+              }
+            },
+            {
+              "id_referencia": "SKU076-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": 8250,
+                "Exito": null,
+                "Jumbo": 10250
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD077",
+          "nombre": "Levadura seca",
+          "unidad_medida": "g",
+          "presentacion": "Sobre de 100 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU077-1",
+              "marca": "Bimbo",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU077-2",
+              "marca": "Comapan",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            },
+            {
+              "id_referencia": "SKU077-3",
+              "marca": "Ramo",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_categoria": "CAT008",
+      "nombre": "Aseo del hogar",
+      "productos": [
+        {
+          "id_producto": "PROD078",
+          "nombre": "Detergente en polvo",
+          "unidad_medida": "kg",
+          "presentacion": "Bolsa de 1 kg",
+          "marcas": [
+            {
+              "id_referencia": "SKU078-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 8400,
+                "Exito": null,
+                "Jumbo": 9350
+              }
+            },
+            {
+              "id_referencia": "SKU078-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 9250,
+                "Exito": null,
+                "Jumbo": 10600
+              }
+            },
+            {
+              "id_referencia": "SKU078-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 10000,
+                "Exito": null,
+                "Jumbo": 11000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD079",
+          "nombre": "Detergente líquido",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU079-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 10550,
+                "Exito": null,
+                "Jumbo": 12400
+              }
+            },
+            {
+              "id_referencia": "SKU079-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 11800,
+                "Exito": null,
+                "Jumbo": 14050
+              }
+            },
+            {
+              "id_referencia": "SKU079-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 12950,
+                "Exito": null,
+                "Jumbo": 14300
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD080",
+          "nombre": "Suavizante de ropa",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU080-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 7900,
+                "Exito": null,
+                "Jumbo": 8450
+              }
+            },
+            {
+              "id_referencia": "SKU080-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 8350,
+                "Exito": null,
+                "Jumbo": 9500
+              }
+            },
+            {
+              "id_referencia": "SKU080-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 8450,
+                "Exito": null,
+                "Jumbo": 9500
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD081",
+          "nombre": "Jabón en barra para ropa",
+          "unidad_medida": "unidad",
+          "presentacion": "Paquete de 3 barras",
+          "marcas": [
+            {
+              "id_referencia": "SKU081-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 4350,
+                "Exito": null,
+                "Jumbo": 5000
+              }
+            },
+            {
+              "id_referencia": "SKU081-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 4700,
+                "Exito": null,
+                "Jumbo": 5850
+              }
+            },
+            {
+              "id_referencia": "SKU081-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 5500,
+                "Exito": null,
+                "Jumbo": 5950
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD082",
+          "nombre": "Lavaloza líquido",
+          "unidad_medida": "mL",
+          "presentacion": "Botella de 500 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU082-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 4500,
+                "Exito": null,
+                "Jumbo": 5000
+              }
+            },
+            {
+              "id_referencia": "SKU082-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 4750,
+                "Exito": null,
+                "Jumbo": 5850
+              }
+            },
+            {
+              "id_referencia": "SKU082-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 5400,
+                "Exito": null,
+                "Jumbo": 5800
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD083",
+          "nombre": "Esponja multiuso",
+          "unidad_medida": "unidad",
+          "presentacion": "Paquete de 2 unidades",
+          "marcas": [
+            {
+              "id_referencia": "SKU083-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 3700
+              }
+            },
+            {
+              "id_referencia": "SKU083-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 3750
+              }
+            },
+            {
+              "id_referencia": "SKU083-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 3900
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD084",
+          "nombre": "Limpiador multiusos",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU084-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 5650,
+                "Exito": null,
+                "Jumbo": 6600
+              }
+            },
+            {
+              "id_referencia": "SKU084-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 6150,
+                "Exito": null,
+                "Jumbo": 6600
+              }
+            },
+            {
+              "id_referencia": "SKU084-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 6300,
+                "Exito": null,
+                "Jumbo": 7750
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD085",
+          "nombre": "Blanqueador",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU085-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 3900,
+                "Exito": null,
+                "Jumbo": 4050
+              }
+            },
+            {
+              "id_referencia": "SKU085-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 3950,
+                "Exito": null,
+                "Jumbo": 4300
+              }
+            },
+            {
+              "id_referencia": "SKU085-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 4450,
+                "Exito": null,
+                "Jumbo": 5050
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD086",
+          "nombre": "Desinfectante para pisos",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU086-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 4950,
+                "Exito": null,
+                "Jumbo": 5600
+              }
+            },
+            {
+              "id_referencia": "SKU086-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 5250,
+                "Exito": null,
+                "Jumbo": 6000
+              }
+            },
+            {
+              "id_referencia": "SKU086-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 6150,
+                "Exito": null,
+                "Jumbo": null
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD087",
+          "nombre": "Bolsas para basura",
+          "unidad_medida": "unidad",
+          "presentacion": "Rollo de 10 bolsas",
+          "marcas": [
+            {
+              "id_referencia": "SKU087-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 4150,
+                "Exito": null,
+                "Jumbo": 4800
+              }
+            },
+            {
+              "id_referencia": "SKU087-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 4350,
+                "Exito": null,
+                "Jumbo": 5300
+              }
+            },
+            {
+              "id_referencia": "SKU087-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 4900,
+                "Exito": null,
+                "Jumbo": 5250
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD088",
+          "nombre": "Papel aluminio",
+          "unidad_medida": "m",
+          "presentacion": "Rollo de 7 m",
+          "marcas": [
+            {
+              "id_referencia": "SKU088-1",
+              "marca": "Ariel",
+              "precios": {
+                "D1": 5750,
+                "Exito": null,
+                "Jumbo": 6200
+              }
+            },
+            {
+              "id_referencia": "SKU088-2",
+              "marca": "Fab",
+              "precios": {
+                "D1": 6200,
+                "Exito": null,
+                "Jumbo": 7200
+              }
+            },
+            {
+              "id_referencia": "SKU088-3",
+              "marca": "Fabuloso",
+              "precios": {
+                "D1": 6950,
+                "Exito": null,
+                "Jumbo": 7850
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_categoria": "CAT009",
+      "nombre": "Aseo personal",
+      "productos": [
+        {
+          "id_producto": "PROD089",
+          "nombre": "Papel higiénico",
+          "unidad_medida": "unidad",
+          "presentacion": "Paquete de 4 rollos",
+          "marcas": [
+            {
+              "id_referencia": "SKU089-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 6550,
+                "Exito": null,
+                "Jumbo": 7700
+              }
+            },
+            {
+              "id_referencia": "SKU089-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 7000,
+                "Exito": null,
+                "Jumbo": 8650
+              }
+            },
+            {
+              "id_referencia": "SKU089-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 8250,
+                "Exito": null,
+                "Jumbo": 8700
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD090",
+          "nombre": "Crema dental",
+          "unidad_medida": "g",
+          "presentacion": "Tubo de 100 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU090-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 5600,
+                "Exito": null,
+                "Jumbo": 6300
+              }
+            },
+            {
+              "id_referencia": "SKU090-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 5950,
+                "Exito": null,
+                "Jumbo": 7100
+              }
+            },
+            {
+              "id_referencia": "SKU090-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 6450,
+                "Exito": null,
+                "Jumbo": 7450
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD091",
+          "nombre": "Cepillo dental",
+          "unidad_medida": "unidad",
+          "presentacion": "Paquete de 2 unidades",
+          "marcas": [
+            {
+              "id_referencia": "SKU091-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 7650,
+                "Exito": null,
+                "Jumbo": 8550
+              }
+            },
+            {
+              "id_referencia": "SKU091-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 8000,
+                "Exito": null,
+                "Jumbo": 9100
+              }
+            },
+            {
+              "id_referencia": "SKU091-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 9100,
+                "Exito": null,
+                "Jumbo": 10000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD092",
+          "nombre": "Champú",
+          "unidad_medida": "mL",
+          "presentacion": "Botella de 400 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU092-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 12600,
+                "Exito": null,
+                "Jumbo": 14400
+              }
+            },
+            {
+              "id_referencia": "SKU092-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 13800,
+                "Exito": null,
+                "Jumbo": 15550
+              }
+            },
+            {
+              "id_referencia": "SKU092-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 14400,
+                "Exito": null,
+                "Jumbo": 16450
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD093",
+          "nombre": "Acondicionador",
+          "unidad_medida": "mL",
+          "presentacion": "Botella de 400 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU093-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 12750,
+                "Exito": null,
+                "Jumbo": 13800
+              }
+            },
+            {
+              "id_referencia": "SKU093-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 13350,
+                "Exito": null,
+                "Jumbo": 16150
+              }
+            },
+            {
+              "id_referencia": "SKU093-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 14600,
+                "Exito": null,
+                "Jumbo": 16500
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD094",
+          "nombre": "Jabón corporal",
+          "unidad_medida": "g",
+          "presentacion": "Paquete de 3 barras (390 g)",
+          "marcas": [
+            {
+              "id_referencia": "SKU094-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 5650,
+                "Exito": null,
+                "Jumbo": 6900
+              }
+            },
+            {
+              "id_referencia": "SKU094-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 5850,
+                "Exito": null,
+                "Jumbo": 6900
+              }
+            },
+            {
+              "id_referencia": "SKU094-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 6350,
+                "Exito": null,
+                "Jumbo": 7800
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD095",
+          "nombre": "Jabón líquido para manos",
+          "unidad_medida": "mL",
+          "presentacion": "Botella de 250 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU095-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 5850,
+                "Exito": null,
+                "Jumbo": 6700
+              }
+            },
+            {
+              "id_referencia": "SKU095-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 5800,
+                "Exito": null,
+                "Jumbo": 7200
+              }
+            },
+            {
+              "id_referencia": "SKU095-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 6950,
+                "Exito": null,
+                "Jumbo": 7800
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD096",
+          "nombre": "Desodorante",
+          "unidad_medida": "mL",
+          "presentacion": "Barra o aerosol de 50 g/mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU096-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 11450,
+                "Exito": null,
+                "Jumbo": 12400
+              }
+            },
+            {
+              "id_referencia": "SKU096-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 11750,
+                "Exito": null,
+                "Jumbo": 13600
+              }
+            },
+            {
+              "id_referencia": "SKU096-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 12450,
+                "Exito": null,
+                "Jumbo": 15000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD097",
+          "nombre": "Toallas higiénicas",
+          "unidad_medida": "unidad",
+          "presentacion": "Paquete de 10 unidades",
+          "marcas": [
+            {
+              "id_referencia": "SKU097-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 7550,
+                "Exito": null,
+                "Jumbo": 8900
+              }
+            },
+            {
+              "id_referencia": "SKU097-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 8100,
+                "Exito": null,
+                "Jumbo": 9500
+              }
+            },
+            {
+              "id_referencia": "SKU097-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 8550,
+                "Exito": null,
+                "Jumbo": 9350
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD098",
+          "nombre": "Máquina de afeitar",
+          "unidad_medida": "unidad",
+          "presentacion": "Paquete de 2 unidades",
+          "marcas": [
+            {
+              "id_referencia": "SKU098-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": null,
+                "Exito": null,
+                "Jumbo": 7950
+              }
+            },
+            {
+              "id_referencia": "SKU098-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 7300,
+                "Exito": null,
+                "Jumbo": 7800
+              }
+            },
+            {
+              "id_referencia": "SKU098-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 7650,
+                "Exito": null,
+                "Jumbo": 8600
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD099",
+          "nombre": "Pañuelos faciales",
+          "unidad_medida": "unidad",
+          "presentacion": "Caja de 100 pañuelos",
+          "marcas": [
+            {
+              "id_referencia": "SKU099-1",
+              "marca": "Colgate",
+              "precios": {
+                "D1": 5550,
+                "Exito": null,
+                "Jumbo": 6750
+              }
+            },
+            {
+              "id_referencia": "SKU099-2",
+              "marca": "Protex",
+              "precios": {
+                "D1": 5900,
+                "Exito": null,
+                "Jumbo": 7300
+              }
+            },
+            {
+              "id_referencia": "SKU099-3",
+              "marca": "Sedal",
+              "precios": {
+                "D1": 6400,
+                "Exito": null,
+                "Jumbo": 7800
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_categoria": "CAT010",
+      "nombre": "Bebidas",
+      "productos": [
+        {
+          "id_producto": "PROD100",
+          "nombre": "Agua sin gas",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1.5 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU100-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 2250,
+                "Exito": null,
+                "Jumbo": 2450
+              }
+            },
+            {
+              "id_referencia": "SKU100-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 2350,
+                "Exito": null,
+                "Jumbo": 2550
+              }
+            },
+            {
+              "id_referencia": "SKU100-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 2500,
+                "Exito": null,
+                "Jumbo": 3000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD101",
+          "nombre": "Agua con gas",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1.5 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU101-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 2900,
+                "Exito": null,
+                "Jumbo": 3200
+              }
+            },
+            {
+              "id_referencia": "SKU101-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 3050,
+                "Exito": null,
+                "Jumbo": 3500
+              }
+            },
+            {
+              "id_referencia": "SKU101-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 3100,
+                "Exito": null,
+                "Jumbo": 3700
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD102",
+          "nombre": "Gaseosa cola",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1.5 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU102-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 5000,
+                "Exito": null,
+                "Jumbo": 5600
+              }
+            },
+            {
+              "id_referencia": "SKU102-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 5650,
+                "Exito": null,
+                "Jumbo": 6100
+              }
+            },
+            {
+              "id_referencia": "SKU102-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 6200,
+                "Exito": null,
+                "Jumbo": 6950
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD103",
+          "nombre": "Gaseosa saborizada",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1.5 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU103-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 4800,
+                "Exito": null,
+                "Jumbo": 5300
+              }
+            },
+            {
+              "id_referencia": "SKU103-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 5100,
+                "Exito": null,
+                "Jumbo": 5800
+              }
+            },
+            {
+              "id_referencia": "SKU103-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 5750,
+                "Exito": null,
+                "Jumbo": 6600
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD104",
+          "nombre": "Jugo de naranja",
+          "unidad_medida": "L",
+          "presentacion": "Caja de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU104-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 4400,
+                "Exito": null,
+                "Jumbo": 5350
+              }
+            },
+            {
+              "id_referencia": "SKU104-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 5050,
+                "Exito": null,
+                "Jumbo": 5650
+              }
+            },
+            {
+              "id_referencia": "SKU104-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 5100,
+                "Exito": null,
+                "Jumbo": 5850
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD105",
+          "nombre": "Jugo de fruta en caja",
+          "unidad_medida": "mL",
+          "presentacion": "Caja de 200 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU105-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 1500,
+                "Exito": null,
+                "Jumbo": 1750
+              }
+            },
+            {
+              "id_referencia": "SKU105-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 1600,
+                "Exito": null,
+                "Jumbo": 1950
+              }
+            },
+            {
+              "id_referencia": "SKU105-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 1850,
+                "Exito": null,
+                "Jumbo": 2000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD106",
+          "nombre": "Té frío",
+          "unidad_medida": "L",
+          "presentacion": "Botella de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU106-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 4750,
+                "Exito": null,
+                "Jumbo": 5200
+              }
+            },
+            {
+              "id_referencia": "SKU106-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 4650,
+                "Exito": null,
+                "Jumbo": 5350
+              }
+            },
+            {
+              "id_referencia": "SKU106-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 5150,
+                "Exito": null,
+                "Jumbo": 6150
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD107",
+          "nombre": "Bebida de avena",
+          "unidad_medida": "mL",
+          "presentacion": "Caja de 1 L",
+          "marcas": [
+            {
+              "id_referencia": "SKU107-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 5950,
+                "Exito": null,
+                "Jumbo": 6650
+              }
+            },
+            {
+              "id_referencia": "SKU107-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 6300,
+                "Exito": null,
+                "Jumbo": 6600
+              }
+            },
+            {
+              "id_referencia": "SKU107-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 6550,
+                "Exito": null,
+                "Jumbo": 7650
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD108",
+          "nombre": "Chocolate instantáneo",
+          "unidad_medida": "g",
+          "presentacion": "Bolsa de 400 g",
+          "marcas": [
+            {
+              "id_referencia": "SKU108-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 10950,
+                "Exito": null,
+                "Jumbo": 11900
+              }
+            },
+            {
+              "id_referencia": "SKU108-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 12250,
+                "Exito": null,
+                "Jumbo": 12700
+              }
+            },
+            {
+              "id_referencia": "SKU108-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 13350,
+                "Exito": null,
+                "Jumbo": 14000
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD109",
+          "nombre": "Bebida hidratante",
+          "unidad_medida": "mL",
+          "presentacion": "Botella de 500 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU109-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 3200,
+                "Exito": null,
+                "Jumbo": 3700
+              }
+            },
+            {
+              "id_referencia": "SKU109-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 3250,
+                "Exito": null,
+                "Jumbo": 3700
+              }
+            },
+            {
+              "id_referencia": "SKU109-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 3500,
+                "Exito": null,
+                "Jumbo": 4250
+              }
+            }
+          ]
+        },
+        {
+          "id_producto": "PROD110",
+          "nombre": "Malta",
+          "unidad_medida": "mL",
+          "presentacion": "Botella de 330 mL",
+          "marcas": [
+            {
+              "id_referencia": "SKU110-1",
+              "marca": "Postobón",
+              "precios": {
+                "D1": 2550,
+                "Exito": null,
+                "Jumbo": 2850
+              }
+            },
+            {
+              "id_referencia": "SKU110-2",
+              "marca": "Hit",
+              "precios": {
+                "D1": 2600,
+                "Exito": null,
+                "Jumbo": 3150
+              }
+            },
+            {
+              "id_referencia": "SKU110-3",
+              "marca": "Coca-Cola",
+              "precios": {
+                "D1": 2800,
+                "Exito": null,
+                "Jumbo": 3100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
